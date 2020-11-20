@@ -1,0 +1,263 @@
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\ocr.exe.config
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\ocr.exe
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\ocr.pdb
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\Microsoft.Rest.ClientRuntime.Azure.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\Microsoft.Rest.ClientRuntime.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\Newtonsoft.Json.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\Microsoft.Rest.ClientRuntime.Azure.xml
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\Newtonsoft.Json.xml
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\obj\Release\ocr.Form1.resources
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\obj\Release\ocr.Properties.Resources.resources
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\obj\Release\ocr.csproj.GenerateResource.cache
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\obj\Release\ocr.csproj.CoreCompileInputs.cache
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\obj\Release\ocr.csproj.CopyComplete
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\obj\Release\ocr.exe
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\obj\Release\ocr.pdb
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\Microsoft.Win32.Primitives.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\netstandard.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.AppContext.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Collections.Concurrent.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Collections.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Collections.NonGeneric.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Collections.Specialized.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.ComponentModel.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.ComponentModel.EventBasedAsync.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.ComponentModel.Primitives.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.ComponentModel.TypeConverter.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Console.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Data.Common.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Diagnostics.Contracts.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Diagnostics.Debug.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Diagnostics.FileVersionInfo.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Diagnostics.Process.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Diagnostics.StackTrace.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Diagnostics.Tools.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Diagnostics.TraceSource.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Diagnostics.Tracing.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Drawing.Primitives.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Dynamic.Runtime.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Globalization.Calendars.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Globalization.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Globalization.Extensions.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.IO.Compression.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.IO.Compression.ZipFile.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.IO.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.IO.FileSystem.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.IO.FileSystem.DriveInfo.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.IO.FileSystem.Primitives.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.IO.FileSystem.Watcher.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.IO.IsolatedStorage.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.IO.MemoryMappedFiles.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.IO.Pipes.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.IO.UnmanagedMemoryStream.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Linq.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Linq.Expressions.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Linq.Parallel.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Linq.Queryable.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Net.Http.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Net.NameResolution.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Net.NetworkInformation.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Net.Ping.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Net.Primitives.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Net.Requests.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Net.Security.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Net.Sockets.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Net.WebHeaderCollection.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Net.WebSockets.Client.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Net.WebSockets.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.ObjectModel.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Reflection.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Reflection.Extensions.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Reflection.Primitives.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Resources.Reader.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Resources.ResourceManager.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Resources.Writer.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Runtime.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Runtime.Extensions.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Runtime.Handles.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Runtime.InteropServices.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Runtime.Numerics.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Runtime.Serialization.Formatters.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Runtime.Serialization.Json.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Runtime.Serialization.Primitives.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Runtime.Serialization.Xml.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Security.Claims.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Security.Cryptography.Algorithms.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Security.Cryptography.Csp.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Security.Cryptography.Encoding.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Security.Cryptography.Primitives.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Security.Cryptography.X509Certificates.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Security.Principal.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Security.SecureString.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Text.Encoding.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Text.Encoding.Extensions.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Text.RegularExpressions.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Threading.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Threading.Overlapped.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Threading.Tasks.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Threading.Tasks.Parallel.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Threading.Thread.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Threading.ThreadPool.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Threading.Timer.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.ValueTuple.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Xml.ReaderWriter.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Xml.XDocument.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Xml.XmlDocument.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Xml.XmlSerializer.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Xml.XPath.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\System.Xml.XPath.XDocument.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\Emgu.CV.Platform.NetFramework.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\Emgu.CV.Platform.NetStandard.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\Emgu.CV.Platform.NetFramework.xml
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\Emgu.CV.Platform.NetStandard.xml
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\obj\Release\ocr.exe.config
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.Controls.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.Imaging.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.Math.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.Video.DirectShow.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.Video.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.Vision.dll
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.xml
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.Controls.xml
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.Imaging.xml
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.Math.xml
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.Video.xml
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.Video.DirectShow.xml
+E:\The Pith\Personal Projects\OCR App\ocr\ocr\bin\Release\AForge.Vision.xml
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\ocr.exe.config
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\ocr.exe
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\ocr.pdb
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Microsoft.Win32.Primitives.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\netstandard.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.AppContext.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Collections.Concurrent.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Collections.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Collections.NonGeneric.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Collections.Specialized.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.ComponentModel.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.ComponentModel.EventBasedAsync.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.ComponentModel.Primitives.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.ComponentModel.TypeConverter.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Console.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Data.Common.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Diagnostics.Contracts.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Diagnostics.Debug.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Diagnostics.FileVersionInfo.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Diagnostics.Process.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Diagnostics.StackTrace.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Diagnostics.Tools.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Diagnostics.TraceSource.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Diagnostics.Tracing.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Drawing.Primitives.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Dynamic.Runtime.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Globalization.Calendars.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Globalization.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Globalization.Extensions.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.IO.Compression.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.IO.Compression.ZipFile.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.IO.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.IO.FileSystem.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.IO.FileSystem.DriveInfo.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.IO.FileSystem.Primitives.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.IO.FileSystem.Watcher.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.IO.IsolatedStorage.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.IO.MemoryMappedFiles.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.IO.Pipes.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.IO.UnmanagedMemoryStream.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Linq.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Linq.Expressions.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Linq.Parallel.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Linq.Queryable.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Net.Http.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Net.NameResolution.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Net.NetworkInformation.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Net.Ping.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Net.Primitives.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Net.Requests.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Net.Security.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Net.Sockets.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Net.WebHeaderCollection.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Net.WebSockets.Client.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Net.WebSockets.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.ObjectModel.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Reflection.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Reflection.Extensions.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Reflection.Primitives.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Resources.Reader.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Resources.ResourceManager.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Resources.Writer.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Runtime.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Runtime.Extensions.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Runtime.Handles.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Runtime.InteropServices.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Runtime.Numerics.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Runtime.Serialization.Formatters.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Runtime.Serialization.Json.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Runtime.Serialization.Primitives.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Runtime.Serialization.Xml.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Security.Claims.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Security.Cryptography.Algorithms.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Security.Cryptography.Csp.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Security.Cryptography.Encoding.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Security.Cryptography.Primitives.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Security.Cryptography.X509Certificates.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Security.Principal.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Security.SecureString.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Text.Encoding.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Text.Encoding.Extensions.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Text.RegularExpressions.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Threading.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Threading.Overlapped.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Threading.Tasks.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Threading.Tasks.Parallel.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Threading.Thread.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Threading.ThreadPool.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Threading.Timer.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.ValueTuple.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Xml.ReaderWriter.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Xml.XDocument.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Xml.XmlDocument.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Xml.XmlSerializer.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Xml.XPath.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\System.Xml.XPath.XDocument.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.Controls.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.Imaging.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.Math.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.Video.DirectShow.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.Video.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.Vision.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Emgu.CV.Platform.NetFramework.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Emgu.CV.Platform.NetStandard.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Microsoft.Rest.ClientRuntime.Azure.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Microsoft.Rest.ClientRuntime.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Newtonsoft.Json.dll
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.xml
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.Controls.xml
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.Imaging.xml
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.Math.xml
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.Video.xml
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.Video.DirectShow.xml
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\AForge.Vision.xml
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Emgu.CV.Platform.NetFramework.xml
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Emgu.CV.Platform.NetStandard.xml
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Microsoft.Rest.ClientRuntime.Azure.xml
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Newtonsoft.Json.xml
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\obj\Release\ocr.csprojAssemblyReference.cache
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\obj\Release\ocr.exe.config
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\obj\Release\ocr.Form1.resources
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\obj\Release\ocr.Properties.Resources.resources
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\obj\Release\ocr.csproj.GenerateResource.cache
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\obj\Release\ocr.csproj.CoreCompileInputs.cache
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\obj\Release\ocr.csproj.CopyComplete
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\obj\Release\ocr.exe
+E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\obj\Release\ocr.pdb
