@@ -40,4 +40,4 @@
 
 *c) without a lot of proprietary nonsense.*
 
-*So, I decided to improve my C#/WPF skills and build one myself.*
+*So, I decided to improve my C#/WPF skills and build one myself. It is not beautiful, feature-rich or very elegant, but it does exactly what I need it to.*
