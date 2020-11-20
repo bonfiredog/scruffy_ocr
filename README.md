@@ -30,12 +30,14 @@
 
 ## Why So Scruffy?
 
-*I take a lot of handwritten notes, especially in the early stages of a project: however, the ideas that I generate in these notes almost invariably get sucked up into digital workflows. I used to spend a lot of time laboriously copying up these notes into digital form. Sometimes this is a useful exercise: I rediscover insights that I had forgotten since the original note-taking, or I reconsider ideas that have become a little past their best.*
+*I take a lot of handwritten notes, especially in the early stages of a project: however, the ideas that I generate in these notes almost invariably get sucked up into digital workflows. I used to spend a lot of time laboriously copying up these notes into digital form. Sometimes this remains a useful exercise: I rediscover insights that I had forgotten since the original note-taking, or I reconsider ideas that have become a little past their best.*
 
-*However, sometimes I just want to get a lot of notes very quickly into a digital form. There weren't many apps out there which performed this one task well which were:*
+*However, sometimes I just want to get a lot of notes very quickly into my computer. Not much to ask, is it? However, there aren't many apps out there which do this:*
 
-*a) free;
-b) good (i.e good recognition performance);
-c) non-proprietary.*
+*a) for free;*
+
+*b) well (i.e good recognition performance);*
+
+*c) without a lot of proprietary nonsense.*
 
 *So, I decided to improve my C#/WPF skills and build one myself.*
