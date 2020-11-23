@@ -19,12 +19,12 @@
 
 ## Setup
 
-- Latest `.exe` is in the `/builds` folder: it can be placed in its own folder anywhere you like. 
+- Copy the `/Scruffy OCR` folder wherever you like. The Visual Studio project is in `/source`; other folders should be self-explanatory.
 - Obviously I did not develop the recognition algorithms: instead I use the excellent Microsoft Cognitive Services API, available through Microsoft's [Azure](https://portal.azure.com/#home) platform. You will need to sign up for an Azure account, and then set up a new Computer Vision resource, making a note of the resource's generated **key** and **endpoint**. Instructions for doing so can be found at [the bottom of this page](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#pricing). 
 - Though an Azure account requires your bank details, the Free Tier provides 5000 calls to the API a month: more than enough for personal use.
 - Opening the app for the first time will ask you to input your Cognitive Services **key** and **endpoint**. You can edit these at any time in the 'Settings' Tab.
-- The 'From File' tab allows you to recognise handwriting from an image file, and then copy the recognised text or save it as a text file. You can set the preferred location for this text file in the 'Settings' tab. 
-- The 'From Camera' tab allows you to recognise handwritten text directly from the page, using your computer's webcam. You can do this with multiple pages by setting the number of pages you want to scan and the delay between camera captures. 
+- The 'From File' tab allows you to recognise handwriting from an image file, and then copy the recognised text or save it as a text file. You can set the preferred folder for this text file in the 'Settings' tab. 
+- The 'From Camera' tab allows you to recognise handwritten text directly from the page, using your computer's webcam. You can do this with multiple pages by setting the number of pages you want to scan and the delay between camera captures. The recognised text will be automatically saved to a new text file in your preferred folder.
 
 <hr />
 
