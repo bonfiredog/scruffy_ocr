@@ -27,9 +27,11 @@ namespace ocr
         private static int autodelay = 0;
         FilterInfoCollection videoDevices;
         VideoCaptureDevice videoDevice;
+        FolderBrowserDialog folderSelect;
 
 
-      
+
+
 
 
         public Form1()
@@ -41,8 +43,35 @@ namespace ocr
             textBox5.Text = "> Debug window started.";
             textBox8.Text = "> Waiting to capture...";
             EnumerateCams();
-          
+
+            if (string.IsNullOrWhiteSpace(subscriptionKey) || string.IsNullOrWhiteSpace(endpoint))
+            {
+                tabControl1.Enabled = false;
+                tabControl1.Visible = false;
+                panel2.Enabled = true;
+                panel2.Visible = true;
+            }
+
+            Application.ApplicationExit += Application_ApplicationExit;
+
             timer1.Enabled = false;
+
+            if (Properties.Settings.Default.preferredFolder == "")
+            {
+                Properties.Settings.Default.preferredFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            }
+
+            label15.Text = "Currently: " + Properties.Settings.Default.preferredFolder;
+
+           folderSelect = new FolderBrowserDialog();
+
+        }
+
+        private void Application_ApplicationExit(object sender, EventArgs e)
+        {
+
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
+
         }
 
         //---------------------------------------------------------
@@ -58,7 +87,8 @@ namespace ocr
                 button2.Enabled = true;
                 button5.Enabled = true;
                 addDebugMessage("Loaded image from file.");
-            } else
+            }
+            else
             {
                 addDebugMessage("Could not load picture from file.");
             }
@@ -72,8 +102,15 @@ namespace ocr
             button2.Enabled = false;
             button2.Text = "Detecting...";
             addDebugMessage("Starting recognition on " + ocrimage + "...");
-            BatchReadFileLocal(client, ocrimage);
-            addDebugMessage("Successfully detected text.");
+            try
+            {
+                BatchReadFileLocal(client, ocrimage);
+            }
+            catch (Exception err)
+            {
+                textBox2.Text = "There was an error detecting handwriting in the image." + Environment.NewLine + "Error: " + err.ToString();
+            }
+            addDebugMessage("Successfully attempted to recognise text.");
         }
 
         //---------------------------------------------------------
@@ -120,7 +157,7 @@ namespace ocr
         private void button5_Click(object sender, EventArgs e)
         {
             string outputfile = @"E:\Incoming\" + "ocrtext.txt".AppendTimeStamp();
-          
+
             using (StreamWriter writer = new StreamWriter(outputfile))
             {
                 writer.Write(textBox2.Text);
@@ -246,7 +283,7 @@ namespace ocr
 
         public void addDebugMessage(string message)
         {
-            
+
             textBox5.AppendText(Environment.NewLine + " > " + message);
         }
 
@@ -255,7 +292,9 @@ namespace ocr
             if (textBox6.Text == "" || textBox7.Text == "")
             {
                 textBox8.Text = "> Add a file and a delay, please.";
-            } else {
+            }
+            else
+            {
                 if (File.Exists(autooutput) == false)
                 {
                     using (FileStream fs = File.Create(autooutput))
@@ -263,7 +302,7 @@ namespace ocr
                         Byte[] title = new UTF8Encoding(true).GetBytes("Automatic Text Capture");
                         fs.Write(title, 0, title.Length);
                         Byte[] line = new UTF8Encoding(true).GetBytes("\n");
-                        fs.Write(line,0,line.Length);
+                        fs.Write(line, 0, line.Length);
                         Byte[] line1 = new UTF8Encoding(true).GetBytes("\n");
                         fs.Write(line1, 0, line.Length);
                     }
@@ -272,17 +311,17 @@ namespace ocr
                 autooutput = textBox6.Text;
                 textBox8.Text = "> New capture in " + autodelay.ToString() + " seconds...";
                 timer1.Enabled = true;
-              
+
             }
         }
 
         //-------------------------------------------------------------
 
-  
+
 
         public async Task BatchReadFileLocal(ComputerVisionClient client, string localImage)
         {
-          
+
             // Helps calucalte starting index to retrieve operation ID
             const int numberOfCharsInOperationId = 36;
 
@@ -317,7 +356,7 @@ namespace ocr
 
                 // Display the found text.
                 Console.WriteLine();
-                var textRecognitionLocalFileResults = results.RecognitionResults;      
+                var textRecognitionLocalFileResults = results.RecognitionResults;
                 foreach (TextRecognitionResult recResult in textRecognitionLocalFileResults)
                 {
                     foreach (Line line in recResult.Lines)
@@ -325,7 +364,7 @@ namespace ocr
                         textBox2.AppendText(line.Text + Environment.NewLine);
                     }
                 }
-                
+
             }
 
             button1.Enabled = true;
@@ -382,7 +421,7 @@ namespace ocr
                         sw.WriteLine(line.Text);
                         sw.WriteLine(Environment.NewLine);
                         sw.Close();
-                            
+
                     }
                 }
 
@@ -412,7 +451,7 @@ namespace ocr
 
         private void button13_Click(object sender, EventArgs e)
         {
-            if (textBox2.Text != null && !string.IsNullOrWhiteSpace(textBox2.Text)) 
+            if (textBox2.Text != null && !string.IsNullOrWhiteSpace(textBox2.Text))
             {
                 Clipboard.SetText(textBox2.Text);
                 button13.Text = "Copied!";
@@ -441,6 +480,47 @@ namespace ocr
         {
             button13.Text = "Copy Text";
             timer3.Stop();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(textBox13.Text) && !string.IsNullOrWhiteSpace(textBox14.Text))
+            {
+                string newkey = textBox13.Text;
+                string newep = textBox14.Text;
+
+                Environment.SetEnvironmentVariable("COMPUTER_VISION_SUBSCRIPTION_KEY", newkey);
+                Environment.SetEnvironmentVariable("COMPUTER_VISION_ENDPOINT", newep);
+                subscriptionKey = Environment.GetEnvironmentVariable("COMPUTER_VISION_SUBSCRIPTION_KEY");
+                endpoint = Environment.GetEnvironmentVariable("COMPUTER_VISION_ENDPOINT");
+
+                addDebugMessage("Set new environment variables for Azure credentials. May have to restart application to apply.");
+
+                tabControl1.Enabled = true;
+                tabControl1.Visible = true;
+                panel2.Enabled = false;
+                panel2.Visible = false;
+            }
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            if (textBox9.Text != "")
+            {
+
+                Properties.Settings.Default.preferredFolder = textBox9.Text;
+                Properties.Settings.Default.Save();
+                label15.Text = "Currently: " + Properties.Settings.Default.preferredFolder;
+            }
+        }
+
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+
+          folderSelect.ShowDialog();
+           textBox9.Text = folderSelect.SelectedPath;
+            
         }
     }
 

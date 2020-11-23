@@ -31,12 +31,10 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -52,6 +50,8 @@
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Automatic = new System.Windows.Forms.TabPage();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.button12 = new System.Windows.Forms.Button();
             this.videoSourcePlayer1 = new AForge.Controls.VideoSourcePlayer();
             this.button11 = new System.Windows.Forms.Button();
@@ -72,6 +72,8 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new AForge.Controls.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button16 = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
             this.button14 = new System.Windows.Forms.Button();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -80,6 +82,16 @@
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button15 = new System.Windows.Forms.Button();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.openFileDialog3 = new System.Windows.Forms.OpenFileDialog();
             this.tabControl1.SuspendLayout();
             this.Manual.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -87,6 +99,8 @@
             this.Log.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -95,16 +109,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(192, 20);
             this.textBox1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(25, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Image Source";
             // 
             // button1
             // 
@@ -139,16 +143,6 @@
             this.button3.Text = "Reset Preview";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(25, 45);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "OCR Output";
             // 
             // textBox2
             // 
@@ -216,11 +210,11 @@
             // 
             this.textBox5.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.textBox5.ForeColor = System.Drawing.Color.White;
-            this.textBox5.Location = new System.Drawing.Point(11, 194);
+            this.textBox5.Location = new System.Drawing.Point(11, 210);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox5.Size = new System.Drawing.Size(362, 178);
+            this.textBox5.Size = new System.Drawing.Size(362, 162);
             this.textBox5.TabIndex = 16;
             // 
             // label5
@@ -295,6 +289,8 @@
             // Automatic
             // 
             this.Automatic.BackColor = System.Drawing.Color.DimGray;
+            this.Automatic.Controls.Add(this.label14);
+            this.Automatic.Controls.Add(this.label13);
             this.Automatic.Controls.Add(this.button12);
             this.Automatic.Controls.Add(this.videoSourcePlayer1);
             this.Automatic.Controls.Add(this.button11);
@@ -317,9 +313,29 @@
             this.Automatic.TabIndex = 2;
             this.Automatic.Text = "From Camera";
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label14.Location = new System.Drawing.Point(439, 105);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(108, 13);
+            this.label14.TabIndex = 27;
+            this.label14.Text = "3) Set Capture Delay:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label13.Location = new System.Drawing.Point(21, 24);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(319, 13);
+            this.label13.TabIndex = 26;
+            this.label13.Text = "Recognise handwriting on multiple pages, direct from the webcam:";
+            // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(569, 117);
+            this.button12.Location = new System.Drawing.Point(569, 128);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(120, 23);
             this.button12.TabIndex = 25;
@@ -330,16 +346,16 @@
             // videoSourcePlayer1
             // 
             this.videoSourcePlayer1.BackgroundImage = global::ocr.Properties.Resources.background;
-            this.videoSourcePlayer1.Location = new System.Drawing.Point(12, 11);
+            this.videoSourcePlayer1.Location = new System.Drawing.Point(24, 48);
             this.videoSourcePlayer1.Name = "videoSourcePlayer1";
-            this.videoSourcePlayer1.Size = new System.Drawing.Size(373, 276);
+            this.videoSourcePlayer1.Size = new System.Drawing.Size(409, 308);
             this.videoSourcePlayer1.TabIndex = 24;
             this.videoSourcePlayer1.Text = "videoSourcePlayer1";
             this.videoSourcePlayer1.VideoSource = null;
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(443, 117);
+            this.button11.Location = new System.Drawing.Point(443, 128);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(120, 23);
             this.button11.TabIndex = 23;
@@ -349,7 +365,7 @@
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(641, 18);
+            this.button10.Location = new System.Drawing.Point(730, 45);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(62, 23);
             this.button10.TabIndex = 22;
@@ -360,9 +376,9 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(443, 20);
+            this.comboBox1.Location = new System.Drawing.Point(544, 45);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(192, 21);
+            this.comboBox1.Size = new System.Drawing.Size(180, 21);
             this.comboBox1.TabIndex = 21;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -370,26 +386,26 @@
             // 
             this.label10.AutoSize = true;
             this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label10.Location = new System.Drawing.Point(391, 23);
+            this.label10.Location = new System.Drawing.Point(440, 48);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(53, 13);
+            this.label10.Size = new System.Drawing.Size(98, 13);
             this.label10.TabIndex = 20;
-            this.label10.Text = "Webcam:";
+            this.label10.Text = "1) Select Webcam:";
             // 
             // textBox8
             // 
             this.textBox8.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox8.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox8.Location = new System.Drawing.Point(443, 176);
+            this.textBox8.Location = new System.Drawing.Point(443, 186);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(219, 20);
+            this.textBox8.Size = new System.Drawing.Size(349, 20);
             this.textBox8.TabIndex = 19;
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(569, 146);
+            this.button9.Location = new System.Drawing.Point(569, 157);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(113, 23);
+            this.button9.Size = new System.Drawing.Size(120, 23);
             this.button9.TabIndex = 18;
             this.button9.Text = "Stop Capture";
             this.button9.UseVisualStyleBackColor = true;
@@ -397,7 +413,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(443, 146);
+            this.button8.Location = new System.Drawing.Point(443, 157);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(120, 23);
             this.button8.TabIndex = 17;
@@ -409,7 +425,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label9.Location = new System.Drawing.Point(492, 92);
+            this.label9.Location = new System.Drawing.Point(599, 105);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(47, 13);
             this.label9.TabIndex = 16;
@@ -417,7 +433,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(726, 48);
+            this.button7.Location = new System.Drawing.Point(730, 72);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(62, 23);
             this.button7.TabIndex = 15;
@@ -427,7 +443,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(443, 89);
+            this.textBox7.Location = new System.Drawing.Point(553, 102);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(43, 20);
             this.textBox7.TabIndex = 14;
@@ -444,9 +460,9 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(641, 48);
+            this.button6.Location = new System.Drawing.Point(664, 72);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(79, 23);
+            this.button6.Size = new System.Drawing.Size(60, 23);
             this.button6.TabIndex = 12;
             this.button6.Text = "Browse...";
             this.button6.UseVisualStyleBackColor = true;
@@ -456,17 +472,17 @@
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(394, 53);
+            this.label7.Location = new System.Drawing.Point(440, 77);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 13);
+            this.label7.Size = new System.Drawing.Size(115, 13);
             this.label7.TabIndex = 11;
-            this.label7.Text = "Text File:";
+            this.label7.Text = "2) Select File Location:";
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(443, 50);
+            this.textBox6.Location = new System.Drawing.Point(561, 74);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(192, 20);
+            this.textBox6.Size = new System.Drawing.Size(97, 20);
             this.textBox6.TabIndex = 5;
             // 
             // Log
@@ -486,6 +502,7 @@
             // 
             this.textBox10.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox10.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox10.ForeColor = System.Drawing.SystemColors.Window;
             this.textBox10.Location = new System.Drawing.Point(497, 179);
             this.textBox10.Multiline = true;
@@ -510,6 +527,8 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.button16);
+            this.panel1.Controls.Add(this.label15);
             this.panel1.Controls.Add(this.button14);
             this.panel1.Controls.Add(this.textBox9);
             this.panel1.Controls.Add(this.label12);
@@ -526,14 +545,35 @@
             this.panel1.Size = new System.Drawing.Size(402, 388);
             this.panel1.TabIndex = 19;
             // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(300, 108);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(75, 23);
+            this.button16.TabIndex = 23;
+            this.button16.Text = "Browse...";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label15.Location = new System.Drawing.Point(99, 160);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(51, 13);
+            this.label15.TabIndex = 22;
+            this.label15.Text = "Currently:";
+            // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(300, 108);
+            this.button14.Location = new System.Drawing.Point(300, 134);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(75, 23);
             this.button14.TabIndex = 21;
             this.button14.Text = "Set";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // textBox9
             // 
@@ -556,7 +596,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(10, 167);
+            this.label6.Location = new System.Drawing.Point(14, 194);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(25, 13);
             this.label6.TabIndex = 18;
@@ -576,6 +616,107 @@
             // 
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.textBox13);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.textBox14);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.button15);
+            this.panel2.Controls.Add(this.textBox12);
+            this.panel2.Controls.Add(this.textBox11);
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Enabled = false;
+            this.panel2.Location = new System.Drawing.Point(134, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(596, 223);
+            this.panel2.TabIndex = 16;
+            this.panel2.Visible = false;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(291, 68);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(192, 20);
+            this.textBox13.TabIndex = 14;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(199, 71);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 13);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Subscription Key";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(291, 94);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(192, 20);
+            this.textBox14.TabIndex = 13;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(236, 97);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Endpoint";
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(489, 91);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(75, 23);
+            this.button15.TabIndex = 17;
+            this.button15.Text = "Set";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // textBox12
+            // 
+            this.textBox12.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox12.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBox12.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox12.Location = new System.Drawing.Point(220, 18);
+            this.textBox12.Multiline = true;
+            this.textBox12.Name = "textBox12";
+            this.textBox12.ReadOnly = true;
+            this.textBox12.Size = new System.Drawing.Size(352, 42);
+            this.textBox12.TabIndex = 2;
+            this.textBox12.Text = "In order to use this app, you need a subscription key and endpoint address from M" +
+    "icrosoft Azure\'s Cognitive Services API.";
+            // 
+            // textBox11
+            // 
+            this.textBox11.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox11.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox11.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox11.Location = new System.Drawing.Point(25, 169);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.ReadOnly = true;
+            this.textBox11.Size = new System.Drawing.Size(137, 22);
+            this.textBox11.TabIndex = 1;
+            this.textBox11.Text = "Scruffy OCR";
+            this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(25, 22);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(137, 131);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -583,8 +724,7 @@
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(834, 470);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
@@ -600,20 +740,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
@@ -657,6 +797,20 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.OpenFileDialog openFileDialog3;
     }
 }
 

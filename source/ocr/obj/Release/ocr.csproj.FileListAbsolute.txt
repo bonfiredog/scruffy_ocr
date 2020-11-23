@@ -252,7 +252,6 @@ E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Emgu.CV.Platfor
 E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Emgu.CV.Platform.NetStandard.xml
 E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Microsoft.Rest.ClientRuntime.Azure.xml
 E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\bin\Release\Newtonsoft.Json.xml
-E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\obj\Release\ocr.csprojAssemblyReference.cache
 E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\obj\Release\ocr.exe.config
 E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\obj\Release\ocr.Form1.resources
 E:\The Pith\Personal Projects\scruffy_ocr\source\ocr\obj\Release\ocr.Properties.Resources.resources
